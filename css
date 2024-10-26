@@ -192,6 +192,10 @@ a:hover {
     font-size: 0.9em;
     color: #ececeb;
 }
+.footer-column a:last-of-type {
+    margin-top: 15px; 
+    display: inline-block; 
+}
 
 /* Large Screens (1695px and below) */
 @media (max-width: 1695px) and (min-width: 867px) {
@@ -407,5 +411,37 @@ a:hover {
         position: relative;
         left: -200px;
         top: -60px;
+    }
+}
+@media (max-width: 488px) {
+    .tv-screen {
+        width: 280px;
+        height: 220px;
+    }
+
+    .tv-image {
+        width: 400px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 451px) {
+    .tv-image {
+        left: -37px;
+        width: 430px;
+    }
+}
+@media (max-width: 433px) {
+       .tv-image {
+        width: 390px;
+        height: 370px;
+    }
+        .tv-screen {
+        width: 290px;
+        height: 250px;
+        top: -290px;
+    }
+        .anime-recommendation {
+        left: -155px;
     }
 }
